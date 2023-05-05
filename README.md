@@ -1,7 +1,6 @@
-#Fuel-Prices
-#How to start
+##Fuel-Prices
 
-Run the development server:
+Start by running the development server:
 
 ```bash
 npm run dev
