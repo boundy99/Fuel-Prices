@@ -1,11 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@300;400;700;900&family=Ubuntu:wght@400;700&display=swap");
+
+/* General */
+
 body {
     font-family: "Inter", sans-serif;
     font-weight: 600;
     background-color: #ffffff;
 }
 
-.welcome {
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* Welcome page */
+
+.welcome-page {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,7 +28,7 @@ body {
     background: linear-gradient( to right, #00308F, 65%, #00CCCC);
     background-clip: text;
     color: transparent;
-    font-size: 140px;
+    font-size: 110px;
     margin-bottom: 30px;
 }
 
@@ -30,9 +41,18 @@ body {
     border: none;
 }
 
+.open-btn:hover {
+    background-color: #000000;
+    color: #ffffff;
+    scale: 1.05;
+}
+
+
+/* Media Queries*/
+
 @media (max-width: 970px) {
     .get-started {
-        font-size: 90px;
+        font-size: 85px;
     }
     .open-btn {
         font-size: 22px;
@@ -41,10 +61,10 @@ body {
 
 @media (max-width: 690px) {
     .get-started {
-        font-size: 60px;
+        font-size: 70px;
     }
     .open-btn {
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 
@@ -64,14 +84,4 @@ body {
     .open-btn {
         font-size: 10px;
     }
-}
-
-.open-btn:hover {
-    background-color: #000000;
-    color: #ffffff;
-}
-
-.link {
-    text-decoration: none;
-    color: inherit;
 }
