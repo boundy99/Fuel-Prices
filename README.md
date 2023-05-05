@@ -1,14 +1,11 @@
 ## Fuel-Prices
 
-Start by running the development server:
+Install packages and run the server with the following prompts in the terminal:
 
 ```bash
+npm i
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
-Then launch in your preferred browser: http://localhost:3000/
+Then launch in your preferred browser the link: http://localhost:3000/
 
 
