@@ -30,7 +30,48 @@ body {
     border: none;
 }
 
+@media (max-width: 970px) {
+    .get-started {
+        font-size: 90px;
+    }
+    .open-btn {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 690px) {
+    .get-started {
+        font-size: 60px;
+    }
+    .open-btn {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 450px) {
+    .get-started {
+        font-size: 42px;
+    }
+    .open-btn {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 280px) {
+    .get-started {
+        font-size: 35px;
+    }
+    .open-btn {
+        font-size: 10px;
+    }
+}
+
 .open-btn:hover {
     background-color: #000000;
     color: #ffffff;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
 }
