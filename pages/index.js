@@ -13,11 +13,10 @@ export default function Home() {
       </Head>{" "}
       <main>
         <div className="welcome-page">
-          <h1 className="get-started"> GET STARTED </h1>{" "}
+          <h1 className="get-started"> Get started </h1>{" "}
           <button className="open-btn">
             <Link href="main" className="link">
-              {" "}
-              OPEN MAP{" "}
+              Open map{" "}
             </Link>{" "}
           </button>{" "}
         </div>{" "}

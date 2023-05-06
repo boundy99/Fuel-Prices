@@ -6,12 +6,12 @@ export default function Home() {
     googleMapsApiKey: process.env.NEXT_PUBLIC_API_KEY,
   });
 
-  if (!isLoaded) return <div> Loading... </div>;
+  if (!isLoaded) return <div> Loading </div>;
   return <Map />;
 }
 
 function Map() {
-  const center = useMemo(() => ({lat: 44, lng: -80}), []);
+  const center = useMemo(() => ({lat: 40.758896, lng: -73.98513}), []);
 
   return (
     <GoogleMap zoom={10} center={center} mapContainerClassName="map-container">
